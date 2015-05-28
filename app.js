@@ -9,6 +9,7 @@ function addEvent (target, event, cb) {
     }
 }
 
+// Helper method for safe triggering events on elements
 function triggerEvent (event, target) {
     var evt = null;
 

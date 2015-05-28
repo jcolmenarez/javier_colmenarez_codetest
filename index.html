@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Colmenárez Javier's CodeTest</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div id="app-container">
+            <div id="main-content-wrapper">
+                <h1>Colmenárez Javier's CodeTest</h1>
+                <form action="" id="test-form">
+                    <div class="form-field-wrapper">
+                        <div class="floating-pair-box">
+                            <label for="">First Name</label>
+                            <div class="form-field-box">
+                                <input class="form-field" id="firstName-field" name="firstName" tabindex="1" type="text">
+                            </div>
+                        </div>
+                        <div class="floating-pair-box">
+                            <p class="output-value-container">Output: "<strong class="output-value" id="firstName-output">---</strong>"</p>
+                        </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <div class="floating-pair-box">
+                            <label for="">Last Name</label>
+                            <div class="form-field-box">
+                                <input class="form-field" id="lastName-field" name="lastName" tabindex="2" type="text">
+                            </div>
+                        </div>
+                        <div class="floating-pair-box">
+                            <p class="output-value-container">Output: "<strong class="output-value" id="lastName-output">---</strong>"</p>
+                        </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <div class="floating-pair-box">
+                            <label for="">Favorite Food</label>
+                            <div class="form-field-box">
+                                <input class="form-field" id="food-field" name="food" tabindex="3" type="text">
+                            </div>
+                        </div>
+                        <div class="floating-pair-box">
+                            <p class="output-value-container">Output: "<strong class="output-value" id="food-output">---</strong>"</p>
+                        </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <div class="floating-pair-box">
+                            <label for="">Favorite Number</label>
+                            <div class="form-field-box">
+                                <input class="form-field" id="number-field" name="number" tabindex="4" type="text">
+                            </div>
+                        </div>
+                        <div class="floating-pair-box">
+                            <p class="output-value-container">Output: "<strong class="output-value" id="number-output">---</strong>"</p>
+                        </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <div class="floating-pair-box">
+                            <label for="">Favorite Day of the Week</label>
+                            <div class="form-field-box">
+                                <select class="form-field" id="day-field" name="day" tabindex="5">
+                                    <option value="">Select a Day</option>
+                                    <option value="0">Sunday</option>
+                                    <option value="1">Monday</option>
+                                    <option value="2">Tuesday</option>
+                                    <option value="3">Wednesday</option>
+                                    <option value="4">Thursday</option>
+                                    <option value="5">Friday</option>
+                                    <option value="6">Saturday</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="floating-pair-box">
+                            <p class="output-value-container">Output: "<strong class="output-value" id="day-output">---</strong>"</p>
+                        </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <div class="floating-pair-box">
+                            <label for="">Favorite Color</label>
+                            <div class="form-field-box">
+                                <select class="form-field" id="color-field" name="color" tabindex="6">
+                                    <option value="">Select a Color</option>
+                                    <option value="red">Red</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="yellow">Yellow</option>
+                                    <option value="green">Green</option>
+                                    <option value="orange">Orange</option>
+                                    <option value="purple">Purple</option>
+                                    <option value="pink">Pink</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="floating-pair-box">
+                            <p class="output-value-container">Output: "<strong class="output-value" id="color-output">---</strong>" <span id="color-show-off-square"></span></p>
+                        </div>
+                    </div>
+                    <div class="form-field-wrapper">
+                        <div class="floating-pair-box">
+                            <button id="form-submit-btn" tabindex="7" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
